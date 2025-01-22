@@ -20,6 +20,8 @@
 	<form method="POST" action="/cars/<%= carDoc._id %>?_method=DELETE">
 		<button type="submit">Delete resource</button>
 	</form>
+	<a href="/cars/<%= carDoc._id %>/edit">Edit <%= carDoc.name %></a>
+	<a href="/cars">Back to Cars</a>
 
 </body>
 
